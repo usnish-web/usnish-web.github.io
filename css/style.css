@@ -1,0 +1,107 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.bg-img {
+	position: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	
+}
+
+.container-fluid {
+	height: 90%;
+}
+.dropdown-section {
+	text-align: center;
+	height: 100%;
+	background: rgba(255,221,215,.3);
+}
+
+
+.dropbtn {
+  width: 160px;
+  background-color: rgba(176, 58, 46, 1);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #641E16;
+  border-radius: 10px 10px 0 0;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  margin: auto;
+  border: 5px;
+  margin-top: 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  width: 160px;
+  padding: 16px;
+  margin: auto;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #CD6155;}
+
+
+.tech-mahendra-logo {
+	width: 200px;
+	height: 50px;
+}
+
+.nav-color {
+	background: #D5D8DC;
+	height: 10%;
+}
+
+.login-signup-section {
+	position: fixed;
+	right: 8px;
+}
+
+.login-signup-section a {
+	width: 100px;
+	display: inline-block;
+	font-size: 16px;
+	background: #2471A3;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	border: 2px solid #34495E;
+}
+
+.login-signup-section a:hover {
+	background: #2E86C1;
+	text-decoration: none;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.frame {
+	height: 100%;
+	background: rgba(0, 0, 0,.5);
+}
